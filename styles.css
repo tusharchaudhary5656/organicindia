@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(organic-farming-definition-examples-.jpg);
+  margin: 0;
+  padding: 0;
+  background-repeat: 0 ;
+  background-size: cover;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.products { 
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  
+  background-color: #FFDFDF;
+  width: 250px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  
+  margin-bottom: 10px;
+}
+
+.product-card button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+  
+  font-family: 'Caveat', cursive;;
+}
+#down{
+  color: white;
+}
